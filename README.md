@@ -37,7 +37,3 @@ Safety and notes
 - This is a prototype. Do not use live funds until you complete full validation and compliance checks.
 - The system is tuned for "maximize profit" objective, but the RiskManager enforces conservative caps by default.
 - The mock LLM is deterministic and safe for testing. To use a real LLM, replace the mock in `llm_client.py` with your provider (example adapter provided).
-
-If you want:
-- I can push this to a GitHub repo (you must provide owner/repo).
-- I can generate a Dockerfile and CI config.
